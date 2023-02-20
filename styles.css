@@ -1,0 +1,74 @@
+
+#heading-nav{
+    display: flex;
+    flex-direction: row;
+}
+.main{
+    text-align: center;
+}
+button{
+    background-color: #ffde59;
+}
+#dashboard {
+    text-align: center;
+    padding: 20px;
+    background-color: grey;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #0f7ecd;
+  }
+  
+  button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  #newsCategory{
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #0f7ecd;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  #newsCategory:hover{
+    background-color: #333;
+    color: #fff;
+  }
+
+  #news {
+    background-color: #f2f2f2;
+    overflow: scroll;
+    align-items: center;
+  }
+  
+
+  .like-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 0;
+  }
+  
+  .like-button::before {
+    content: "\2764";
+    color: #aaa;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .like-button:hover::before {
+    color: red;
+    transform: scale(1.2);
+  }
+  .categoryNews{
+    padding-top: 10px;
+    margin: 10px;
+  }
