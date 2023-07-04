@@ -16,7 +16,7 @@
     </header>
     <main class="main">
         <div>
-        <img src="https://media.millichronicle.com/2019/03/12123633/Top-50-Nigeria-News-Sites.png" width="300" height="250"/>
+        <img src="https://media.millichronicle.com/2019/03/12123633/Top-50-Nigeria-News-Sites.png" width="200" height="150"/>
         <div id="dashboard">
             <button>Newsfeed</button>
             <button id="loadSaved"onclick="savedFunction()">Load Saved News</button>
@@ -35,17 +35,31 @@
              <button id="myNewsFeed" onclick="myFunction()">MY NEWSFEED</button>
              <button id="loadNew">NEW NEWS</button>
            <select id="newsCategory">
-              <option value="" disabled selected hidden>SELECT CATEGORY...</option>
+              <option value="" disabled selected hidden class="category">SELECT CATEGORY...</option>
               <option value="business"onclick="businessFunction()">BUSINESS</option>
               <option value="all" id="all">ALL</option>
               <option value="sports" id="sports">SPORTS</option>
               <option value="science" id="science">SCIENCE</option>
-              <option value="hatke" id="hatke">HATKE</option>
-              <option value="automobile" id="automobile">AUTOMOBILE</option>
+              <option value="general" id="general">GENERAL</option>
+              <option value="programming" id="programming">PROGRAMMING</option>
               <option value="world" id="world">WORLD</option>
               <option value="politics" id="politics">POLITICS</option>
-            </select>
+              <option value="finance" id="finance">FINANCE</option>
+              <option value="regional" id="regional">REGIONAL</option>
+              <option value="lifestyle" id="lifestyle">LIFESTYLE</option>
+              <option value="health" id="health">HEALTH</option>
+              <option value="food" id="food">FOOD</option>
+              <option value="game" id="game">GAME</option>
+              <option value="fashion" id="fashion">FASHION</option>
+              <option value="funny" id="funny">FUNNY</option>
+              <option value="gadgets" id="gadgets">GADGETS</option>
+              <option value="movie" id="movie">MOVIE</option>
+              <option value="music" id="music">MUSIC</option>
+              <option value="art" id="art">ART</option>
 
+    <!-- `https://api.currentsapi.services/v1/available/categories` -->
+            </select>
+            
            <div id="news">
         </div>
     <main>
